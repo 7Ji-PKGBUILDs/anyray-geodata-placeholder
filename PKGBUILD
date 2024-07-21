@@ -1,13 +1,18 @@
 # Maintainer: Guoxin "7Ji" Pu <pugokushin@gmail.com>
 
 pkgbase=anyray-geodata-placeholder
-pkgname=({xray-{geoip,geosite,domain-list-community},v2ray-{geoip,domain-list-community}}-placeholder)
+pkgname=({anyray-geodata,{xray-{geoip,geosite,domain-list-community},v2ray-{geoip,domain-list-community}}}-placeholder)
 pkgdesc='Placeholder for '
 pkgver=1
 pkgrel=1
 arch=('any')
 source=('data')
 cksums=('SKIP')
+
+package_anyray-geodata-placeholder() {
+    pkgdesc+='Xray GeoIP / GeoSite / DoaminListCommunity and v2ray GeoIP / Domain List Community'
+    provides=(xray-{geoip,geosite,domain-list-community} v2ray-{geoip,domain-list-community})
+}
 
 package_xray-geoip-placeholder() {
     pkgdesc+='Xray GeoIP'
