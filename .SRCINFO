@@ -1,21 +1,27 @@
 pkgbase = anyray-geodata-placeholder
-	pkgdesc = Placeholder for
+	pkgdesc = Placeholder for 
 	pkgver = 1
 	pkgrel = 1
-	epoch = 1
 	arch = any
+	source = data
+	sha256sums = SKIP
 
 pkgname = xray-geoip-placeholder
 	pkgdesc = Placeholder for Xray GeoIP
+	provides = xray-geoip
 
 pkgname = xray-geosite-placeholder
 	pkgdesc = Placeholder for Xray GeoSite
+	provides = xray-geosite
 
 pkgname = xray-domain-list-community-placeholder
 	pkgdesc = Placeholder for Xray Domain List (community)
+	provides = xray-domain-list-community
 
 pkgname = v2ray-geoip-placeholder
 	pkgdesc = Placeholder for v2ray GeoIP
+	provides = v2ray-geoip
 
 pkgname = v2ray-domain-list-community-placeholder
 	pkgdesc = Placeholder for v2ray Domain List (community)
+	provides = v2ray-domain-list-community
